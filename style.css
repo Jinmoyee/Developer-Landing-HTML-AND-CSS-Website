@@ -1,0 +1,398 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body .S1 {
+    background-image: url(Images/developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+body .S1 .text {
+    color: aliceblue;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+body .S1 .text .text_head {
+    font-size: 1.2rem;
+}
+
+body .S1 .text .text_head #big_text_1 {
+    font-size: 2rem;
+}
+
+body .S1 .text .text_mid {
+    font-size: 2rem;
+}
+
+body .S2 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+body .S2 .work_text {
+    font-size: 1.5rem;
+}
+
+body .S2 .work_text #big_text_2 {
+    font-size: 2.5rem;
+}
+
+body .S3 .works {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+    column-gap: 4rem;
+    row-gap: 4rem;
+   
+}
+
+body .S3 .works:hover {
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+body .S3 .works .card .image {
+    position: relative;
+    background-position: center;
+}
+
+body .S3 .works .card {
+    border-radius: 1rem;
+    min-height: 25rem;
+    max-width: 20rem;
+    box-shadow: 4px 4px 8px gray;
+    transition: 0.2s ease-in-out;
+}
+
+body .S3 .works .card:hover {
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+    box-shadow: 4px 4px 10px gray;
+}
+
+body .S3 .works .card .about {
+    padding: 1rem;
+}
+
+body .S3 .works .no_1 .about h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+body .S3 .works .no_2 .about h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+body .S3 .works .no_3 .about h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+body .S3 .works .no_1 .about {
+    font-size: 0.8rem;
+}
+
+body .S3 .works .no_2 .about {
+    font-size: 0.8rem;
+}
+
+body .S3 .works .no_3 .about {
+    font-size: 0.8rem;
+}
+
+body .S4 .about_1 {
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+} 
+
+body .S4 .about_1 .contact {
+    padding: 2rem;
+    min-height: 15rem;
+    width: 100%;
+}
+
+body .S4 .about_1 .me {
+    background-color: rgb(36, 61, 16);
+}
+
+body .S4 .about_1 .me h6 {
+    font-size: 2rem;
+}
+
+body .S4 .about_1 .me p {
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+body .S4 .about_1 .me footer {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+body .S4 .about_1 .about_me {
+    background-color: rgb(108, 77, 28);
+}
+
+body .S4 .about_1 .about_me h6 {
+    font-size: 2rem;
+}
+
+body .S4 .about_1 .about_me p {
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+body .S5 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 43.75em) {
+    body .S1 .text .text_head {
+        font-size: 1.5rem;
+        padding-left: 5rem;
+    }
+    
+    body .S1 .text .text_head #big_text_1 {
+        font-size: 3rem;
+    }
+
+    body .S1 .text .text_mid {
+        font-size: 3rem;
+        padding-left: 5rem;
+    }
+
+    body .S2 .work_text {
+        font-size: 2rem;
+    }
+    
+    body .S2 .work_text #big_text_2 {
+        font-size: 3rem;
+    }
+
+    body .S3 .works .no_1 .about h3 {
+        font-size: 1.5rem;
+    }
+    
+    body .S3 .works .no_2 .about h3 {
+        font-size: 1.5rem;
+    }
+    
+    body .S3 .works .no_3 .about h3 {
+        font-size: 1.5rem;
+    }
+    
+    body .S3 .works .no_1 .about {
+        font-size: 1rem;
+    }
+    
+    body .S3 .works .no_2 .about {
+        font-size: 1rem;
+    }
+    
+    body .S3 .works .no_3 .about {
+        font-size: 1rem;
+    }
+    
+
+    body .S4 .about_1 {
+        flex-direction: row;
+    } 
+
+    body .S4 .about_1 .me h6 {
+        font-size: 2.5rem;
+    }
+    
+    body .S4 .about_1 .me p {
+        font-size: 1rem;
+    }
+
+    body .S4 .about_1 .about_me h6 {
+        font-size: 2.5rem;
+    }
+    
+    body .S4 .about_1 .about_me p {
+        font-size: 1rem;
+    }
+    
+    body .S5 {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 62em) {
+    body .S1 .text .text_head {
+        font-size: 1.5rem;
+        padding-left: 6rem;
+    }
+    
+    body .S1 .text .text_head #big_text_1 {
+        font-size: 3.1rem;
+    }
+
+    body .S1 .text .text_mid {
+        font-size: 3.1rem;
+        padding-left: 6rem;
+    }
+
+    body .S2 .work_text {
+        font-size: 2.1rem;
+    }
+    
+    body .S2 .work_text #big_text_2 {
+        font-size: 3.1rem;
+    }
+
+    body .S3 .works .no_1 .about h3 {
+        font-size: 1.6rem;
+    }
+    
+    body .S3 .works .no_2 .about h3 {
+        font-size: 1.6rem;
+    }
+    
+    body .S3 .works .no_3 .about h3 {
+        font-size: 1.6rem;
+    }
+    
+    body .S3 .works .no_1 .about {
+        font-size: 1.1rem;
+    }
+    
+    body .S3 .works .no_2 .about {
+        font-size: 1.1rem;
+    }
+    
+    body .S3 .works .no_3 .about {
+        font-size: 1.1rem;
+    }
+    
+
+    body .S4 .about_1 {
+        flex-direction: row;
+    } 
+
+    body .S4 .about_1 .me h6 {
+        font-size: 2.6rem;
+    }
+    
+    body .S4 .about_1 .me p {
+        font-size: 1.1rem;
+    }
+
+    body .S4 .about_1 .about_me h6 {
+        font-size: 2.6rem;
+    }
+    
+    body .S4 .about_1 .about_me p {
+        font-size: 1.1rem;
+    }
+    
+    body .S5 {
+        padding: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 87em) {
+    body .S1 .text .text_head {
+        font-size: 2rem;
+        padding-left: 15rem;
+    }
+    
+    body .S1 .text .text_head #big_text_1 {
+        font-size: 3.3rem;
+    }
+
+    body .S1 .text .text_mid {
+        font-size: 3.3rem;
+        padding-left: 15rem;
+    }
+
+    body .S2 .work_text {
+        font-size: 2.3rem;
+    }
+    
+    body .S2 .work_text #big_text_2 {
+        font-size: 3.3rem;
+    }
+
+    body .S3 .works .no_1 .about h3 {
+        font-size: 1.6rem;
+    }
+    
+    body .S3 .works .no_2 .about h3 {
+        font-size: 1.6rem;
+    }
+    
+    body .S3 .works .no_3 .about h3 {
+        font-size: 1.6rem;
+    }
+    
+    body .S3 .works .no_1 .about {
+        font-size: 1rem;
+    }
+    
+    body .S3 .works .no_2 .about {
+        font-size: 1rem;
+    }
+    
+    body .S3 .works .no_3 .about {
+        font-size: 1rem;
+    }
+    
+
+    body .S4 .about_1 {
+        flex-direction: row;
+    } 
+
+    body .S4 .about_1 .me h6 {
+        font-size: 2.6rem;
+    }
+    
+    body .S4 .about_1 .me p {
+        font-size: 1rem;
+    }
+
+    body .S4 .about_1 .about_me h6 {
+        font-size: 2.6rem;
+    }
+    
+    body .S4 .about_1 .about_me p {
+        font-size: 1rem;
+    }
+    
+    body .S5 {
+        padding: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
